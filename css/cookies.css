@@ -1,0 +1,6 @@
+#bouton {
+  width: 12px;
+  height: 12px;
+  background-image: url('./../images/cookie.png');
+  position: relative;
+}
