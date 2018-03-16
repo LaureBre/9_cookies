@@ -22,8 +22,8 @@ function is_int(value){
 function multCookies() {
   cookies = cookies + 1;
   bouton.value = cookies;
-  bouton.style.width = 4 + 12* Math.sqrt(cookies) + "px";
-  bouton.style.height = 4 + 12* Math.sqrt(cookies) + "px";
+  bouton.style.width = 8 + 12* Math.sqrt(cookies) + "px";
+  bouton.style.height = 8 + 12* Math.sqrt(cookies) + "px";
   var couleur = "rgba(" + rand() + ", "+ rand() + ", " + rand() + ", 0.5)";
   bouton.style.backgroundColor = couleur;
   if (is_int(cookies/10) === true) { dizaine(cookies/10) }
